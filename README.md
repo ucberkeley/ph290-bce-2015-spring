@@ -28,3 +28,18 @@ cd ph290-bce-2015-spring
 git pull
 bash update-ph290-bce-2015-spring
 ```
+
+## Running the demo
+
+The demo requires the IPython Notebook, RStudio, and several hundred
+libraries for processing and analysis installed-- that all comes with
+BCE so you don't have to install it yourself!
+
+To set up the demo, simply type:
+
+```bash
+bash demo-setup-for-bce-workshop
+```
+
+And then run IPython Notebook or RStudio and open the corresponding
+folder in your home directory.

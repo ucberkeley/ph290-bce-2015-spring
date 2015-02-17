@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ~
+git clone https://github.com/aculich/kaggle-titanic-ipynb.git
+git clone https://github.com/aculich/kaggle-titanic-r.git
