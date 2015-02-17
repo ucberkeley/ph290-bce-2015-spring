@@ -1,0 +1,8 @@
+#!/bin/bash
+
+BASE_URL="http://bce.berkeley.edu/"
+rm -f /var/cache/bce.berkeley.edu
+mkdir -p /var/cache/bce-documentation
+cd /var/cache
+ln -s /var/cache/bce-documentation /var/cache/bce.berkeley.edu
+wget --mirror -k -p ${BASE_URL}

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo install -m 0755 system-updates/update-bce-docs /usr/local/bin/
+sudo /usr/local/bin/update-bce-docs
